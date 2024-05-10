@@ -1,0 +1,13 @@
+#file manager : thunar
+sudo apt install thunar
+How to make it default go to menu type default application and select it.
+App lancher Going to use rofi 
+You can either install it from git hub or with the pacmanager apt
+https://github.com/davatorium/rofi
+to run rofi use: rofi -show run 
+and to select a theme you can do rofi-theme-selector
+the  themes are in /usr/share/rofi/themes
+The one I use is dracula theme from this rofi collection:
+https://github.com/Murzchnvok/rofi-collection 
+to add it as a shortcut use:
+Keyboards - add new shortcut name: rofi command: rofi -show run -theme ~/rofi-collection/dracula/dracula.rasi 
