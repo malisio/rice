@@ -196,7 +196,7 @@ bar {
 #Backgroud command
 exec_always feh --bg-fill /usr/share/backgrounds/kali-16x9/kaliXarch.png
 #Managing work Spaces
-for_window [class="qterminal"] move to workspace $ws1
+for_window [class="qterminal"] move to workspace $ws1 $use xprop  to determine classes for windows
 for_window [class="Firefox-esr"] move to workspace $ws2
 for_window [class="Code"] move to workspace $ws3 
 
