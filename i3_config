@@ -55,7 +55,7 @@ bindsym $mod+Return exec qterminal
 bindsym $mod+Shift+q kill
 
 # start dmenu (a program launcher)
-bindsym $mod+d exec --no-startup-id dmenu_run
+bindsym $mod+q exec --no-startup-id dmenu_run
 # A more modern dmenu replacement is rofi:
 # bindcode $mod+40 exec "rofi -modi drun,run -show drun"
 # There also is i3-dmenu-desktop which only displays applications shipping a
@@ -117,13 +117,13 @@ bindsym $mod+a focus parent
 set $ws1 "1:  Terminal"
 set $ws2 "2:  Firefox "
 set $ws3 "3:   IDE"
-set $ws4 "4"
+set $ws4 "4:"
 set $ws5 "5"
 set $ws6 "6"
 set $ws7 "7"
 set $ws8 "8"
 set $ws9 "9"
-set $ws10 "10"
+set $ws10 "10:  Spotify"
 
 # switch to workspace
 bindsym $mod+1 workspace number $ws1
@@ -194,10 +194,12 @@ bar {
 }
 
 #Backgroud command
-exec_always feh --bg-fill /usr/share/backgrounds/kali-16x9/kaliXarch.png
+exec_always feh --bg-fill /home/malisio/Wallpapers/m4lisio3.png
 #Managing work Spaces
-for_window [class="qterminal"] move to workspace $ws1 $use xprop  to determine classes for windows
+for_window [class="qterminal"] move to workspace $ws1
 for_window [class="Firefox-esr"] move to workspace $ws2
 for_window [class="Code"] move to workspace $ws3 
+for_window [class="Spotify"] move to workspace $ws10
+bindsym $mod + d exec rofi -show drun -theme ~/github/rofi-collection/dracula/dracula.rasi
 
 
