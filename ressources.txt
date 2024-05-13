@@ -1,5 +1,6 @@
 Wallpapers: https://wallhaven.cc/ #Anime Girls wallpapers.
 i3 configuration: https://www.youtube.com/watch?v=j1I63wGcvU4&list=PL0rXAycsylvXxyPDT5kGQ5MiHcqrZWv69 #playlist with all the good guides for 
+https://www.youtube.com/watch?v=lvLExb1SUzM
 #ricing i3
 
 auto spawn bspwm : https://github.com/r1vs3c/auto-bspwm #For kali linux distro 
