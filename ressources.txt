@@ -4,3 +4,5 @@ https://www.youtube.com/watch?v=lvLExb1SUzM
 #ricing i3
 
 auto spawn bspwm : https://github.com/r1vs3c/auto-bspwm #For kali linux distro 
+
+https://fontawesome.com/v4/cheatsheet/ //aswesome fonts cheat sheet
